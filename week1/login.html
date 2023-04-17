@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .input {
+  display: block;
+  width: 200px;
+  height: 30px;
+  text-indent: 10px;
+  border: 2px solid lightgray;
+}
+#id-input {
+  border-radius: 10px 10px 0 0;
+}
+#password-input {
+  border-radius: 0 0 10px 10px;
+  border-top: 0;
+  margin-bottom: 5px;
+}
+.focus:focus {
+  background-color: rgb(227, 237, 255);
+}
+
+#login-button {
+  display: block;
+  height: 35px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid rgb(132, 175, 255);
+  background-color: rgb(58, 133, 255);
+  transition: 0.1s;
+  color: white;
+  font-weight: 900;
+}
+#login-button:hover {
+  background-color: rgb(136, 179, 255);
+}
+#login-button:active {
+  transform: translateY(1px);
+  background-color: rgb(188, 213, 255);
+  border: 2px solid rgb(167, 197, 255);
+}
+
+#keep-checkbox {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+body {
+  margin: 30px;
+}
+
+</style>
+<body>
+  
+  <input id="id-input" class="input focus" type="text" placeholder="ID"></input>
+  <input id="password-input" class="input focus" type="password" placeholder="password"></input>
+  <button id="login-button">Login</button>
+  <input id="keep-checkbox" type="checkbox">Keep Login</input>
+  
+  <link rel="stylesheet" href="style.css">
+
+  <div>
+    <div id ="writing-section">댓글 9M</div>
+    <input id ="new-comment-content" type="text" placeholder="댓글을 입력해주세요">
+    <button id="register">등록</button>
+  </div>
+
+  <ul id="comments">
+    <li class="comment"></li>
+    <div class = "username">ddd</div>
+    <div class = "content">123</div>
+    <span class = "createdAT">aaa</span>
+    <button class="voteUp"></button>
+    <button class="voteDown"></button>
+  </li>
+  <li class="comment"></li>
+  <div class = "username">sss</div>
+  <div class = "content">123123</div>
+  <span class = "createdAT">aaa</span>
+  <button class="voteUp">2</button>
+  <button class="voteDown">3</button>
+</li>
+  </ul>
+
+
+</body>
+</html>

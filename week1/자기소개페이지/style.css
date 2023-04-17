@@ -1,0 +1,29 @@
+#yong, div {
+  font-size: large;
+  text-align: center;
+  padding: 0.3em 0;
+  background-color: #4a4a4a;
+  color: #f9f9f9;
+}
+
+#qk { 
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#container { 
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  
+}
+
+.goal {
+  color: #155724; /* 글자 색상 */
+  background-color: #d4edda; /* 배경 색상 */
+  border-color: #c3e6cb; /* 테두리 색상 */
+}
